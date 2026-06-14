@@ -285,13 +285,13 @@
             </div>
             <div class="job-company">Nosso Wi-Fi (SAT Telecom) · São João de Meriti, RJ</div>
             <ul>
-                <li>Monitoramento noc e ftth via zabbix grafana</li>
-                <li>Suporte ao técnico ftth e de infraestrutura</li>
-                <li>Provisionamento e configurações internas em ont nokia e huawei via erp</li>
-                <li>Gerenciamento de ont via nokia 5520 ams (access management system)</li>
-                <li>Analise de conexão ftth da olt até o equipamento do cliente final</li>
-                <li>Acesso remoto via putty, anydesk e teamviwer</li>
-                <li>Configuração de voip via zeus, microsip e dentro da ont</li>
+                <li>Monitoramento NOC e FTTH via Zabbix Grafana</li>
+                <li>Suporte ao técnico FTTH e de infraestrutura</li>
+                <li>Provisionamento e configurações internas em ont Nokia e Huawei via ERP</li>
+                <li>Gerenciamento de ONT via Nokia 5520 AMS (Access Management System)</li>
+                <li>Analise de conexão FTTH da OLT até o equipamento do cliente final</li>
+                <li>Acesso remoto via Putty, Anydesk e Teamviwer</li>
+                <li>Configuração de VoIP via Zeus, Microsip e dentro da ONT</li>
                 <li>Apoio total ao usuário de informática</li>
             </ul>
         </div>
@@ -303,15 +303,15 @@
             </div>
             <div class="job-company">RedeBr Telecom · Duque de Caxias, RJ</div>
             <ul>
-                <li>Gerenciamento de onu fiberhome via anm2000</li>
-                <li>Provisionamento e configurações internas em ont nokia via mk solution</li>
-                <li>Treinamento de novos técnicos (suporte n1)</li>
-                <li>Analise de rombpimento via putty para solução rápida</li>
+                <li>Gerenciamento de ONU Fiberhome via ANM2000</li>
+                <li>Provisionamento e configurações internas em ONT Nokia via MK Solution</li>
+                <li>Treinamento de novos técnicos (Suporte N1)</li>
+                <li>Analise de rombpimento via Putty para solução rápida</li>
                 <li>Analise e solução em casos específicos de lentidão, latência alta e perda de pacote em jogos</li>
-                <li>Configuração de vpns internas</li>
-                <li>Atendimento a clientes b2b, júridica e pessoa física</li>
+                <li>Configuração de VPNS internas</li>
+                <li>Atendimento a clientes B2B, úridica e pessoa física</li>
                 <li>Atendimento via chat</li>
-                <li>Atendimento telefônico via microsip</li>
+                <li>Atendimento telefônico via Microsip</li>
                 <li>Agendamento e tratativa de prioridades técnicas</li>
             </ul>
         </div>
@@ -323,11 +323,11 @@
             </div>
             <div class="job-company">Netcenter Segurança Cibernética · Rio de Janeiro, RJ</div>
             <ul>
-                <li>Hardware - montagem/manutenção de computadores</li>
-                <li>Instalação e manutenção de infraestrutura de redes cabeadas e wi-fi</li>
-                <li>Software - instalação de programas e sistemas corporativos</li>
+                <li>Hardware - montagem e manutenção de computadores</li>
+                <li>Instalação e manutenção de infraestrutura de redes cabeadas e Wi-Fi</li>
                 <li>Instalação e configuração de impressoras</li>
-                <li>Instalação e configuração de windows xp/vista/7/8/8.1/10</li>
+                <li>Software - instalação de programas e sistemas corporativos</li>
+                <li>Instalação e configuração de windows XP, Vista, Win7, 8, 8.1 e 10</li>
                 <li>Elaboração de relatórios técnicos seguindo todo procedimento executado ao problema previamente analisado</li>
             </ul>
         </div>
