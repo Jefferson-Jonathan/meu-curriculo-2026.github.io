@@ -309,7 +309,7 @@
                 <li>Analise de rombpimento via Putty para solução rápida</li>
                 <li>Analise e solução em casos específicos de lentidão, latência alta e perda de pacote em jogos</li>
                 <li>Configuração de VPNS internas</li>
-                <li>Atendimento a clientes B2B, úridica e pessoa física</li>
+                <li>Atendimento a clientes B2B, jurídica e pessoa física</li>
                 <li>Atendimento via chat</li>
                 <li>Atendimento telefônico via Microsip</li>
                 <li>Agendamento e tratativa de prioridades técnicas</li>
@@ -327,7 +327,7 @@
                 <li>Instalação e manutenção de infraestrutura de redes cabeadas e Wi-Fi</li>
                 <li>Instalação e configuração de impressoras</li>
                 <li>Software - instalação de programas e sistemas corporativos</li>
-                <li>Instalação e configuração de windows XP, Vista, Win7, 8, 8.1 e 10</li>
+                <li>Instalação e configuração de windows XP, Vista, 7, 8, 8.1 e 10</li>
                 <li>Elaboração de relatórios técnicos seguindo todo procedimento executado ao problema previamente analisado</li>
             </ul>
         </div>
