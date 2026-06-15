@@ -1,0 +1,227 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --bg:        #0d1117;
+    --surface:   #161b22;
+    --border:    #21262d;
+    --accent:    #58a6ff;
+    --accent2:   #3fb950;
+    --text:      #e6edf3;
+    --muted:     #8b949e;
+    --tag-bg:    #1f3550;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    min-height: 100vh;
+}
+
+/* ── HEADER ── */
+header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 0 40px;
+}
+.header-inner {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 28px;
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+.avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    flex-shrink: 0;
+    border: 2px solid var(--border);
+}
+.header-text h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.3px;
+}
+.header-text .role {
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+}
+.header-text .location {
+    color: var(--muted);
+    font-size: 0.88rem;
+    margin-top: 6px;
+}
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+}
+.contact-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.83rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.15s;
+}
+.contact-links a:hover { color: var(--accent); }
+.contact-links a svg { flex-shrink: 0; }
+
+/* ── MAIN ── */
+main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 28px 80px;
+    display: grid;
+    gap: 0;
+}
+
+/* ── SECTION ── */
+section { border-top: 1px solid var(--border); padding: 32px 0; }
+section:first-child { border-top: none; }
+
+.section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--accent2);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* ── RESUMO ── */
+.resumo p {
+    color: #c9d1d9;
+    max-width: 680px;
+    font-size: 0.95rem;
+}
+
+/* ── EXPERIÊNCIA ── */
+.job { margin-bottom: 28px; }
+.job:last-child { margin-bottom: 0; }
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+.job-title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text);
+}
+.job-period {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--muted);
+    white-space: nowrap;
+    padding-top: 3px;
+}
+.job-company {
+    font-size: 0.87rem;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+.job ul {
+    padding-left: 18px;
+    color: #c9d1d9;
+}
+.job ul li {
+    font-size: 0.88rem;
+    margin-bottom: 4px;
+}
+
+/* ── HABILIDADES ── */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.tag {
+    background: var(--tag-bg);
+    color: var(--accent);
+    border: 1px solid #2a4a6e;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+.tag.soft {
+    background: #1a2e1a;
+    color: var(--accent2);
+    border-color: #2a4a2a;
+}
+
+/* ── FORMAÇÃO / CERTS ── */
+.edu-item, .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+.edu-item:last-child, .cert-item:last-child { border-bottom: none; }
+.edu-name { font-weight: 500; font-size: 0.92rem; }
+.edu-sub { font-size: 0.83rem; color: var(--muted); margin-top: 2px; }
+.badge-concluido {
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+    background: #1a2e1a;
+    color: var(--accent2);
+    border: 1px solid #2a4a2a;
+    border-radius: 20px;
+    padding: 2px 9px;
+    white-space: nowrap;
+    align-self: flex-start;
+}
+
+/* ── IDIOMAS ── */
+.lang-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.lang-item { display: flex; flex-direction: column; gap: 4px; }
+.lang-name { font-size: 0.9rem; font-weight: 500; }
+.lang-level { font-size: 0.78rem; color: var(--muted); }
+
+/* ── FOOTER ── */
+footer {
+    text-align: center;
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.73rem;
+    padding: 24px 28px;
+    border-top: 1px solid var(--border);
+}
+footer a { color: var(--accent); text-decoration: none; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 600px) {
+    .header-inner { flex-direction: column; gap: 20px; }
+    .avatar { width: 68px; height: 68px; font-size: 20px; }
+    .header-text h1 { font-size: 1.4rem; }
+}
